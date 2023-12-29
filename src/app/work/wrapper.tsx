@@ -1,6 +1,6 @@
-import { Button } from '@/components/Button'
 import { ContactSection } from '@/components/ContactSection'
 import { Container } from '@/components/Container'
+import DownloadButton from '@/components/DownloadButton'
 import { FadeIn } from '@/components/FadeIn'
 import { GrayscaleTransitionImage } from '@/components/GrayscaleTransitionImage'
 import { MDXComponents } from '@/components/MDXComponents'
@@ -26,9 +26,9 @@ export default async function CaseStudyLayout({
         <header>
           <PageIntro eyebrow="Case Study" title={caseStudy.title} centered>
             <p>{caseStudy.description}</p>
-            <Button href="/Sangit7-win.vst3" className="mt-8">
+            <DownloadButton fileName="Sangit7-win.vst3" className="mt-8">
               Download Sangit7 VST
-            </Button>
+            </DownloadButton>
           </PageIntro>
 
           <FadeIn>
