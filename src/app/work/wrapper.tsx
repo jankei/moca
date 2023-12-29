@@ -1,3 +1,4 @@
+import { Button } from '@/components/Button'
 import { ContactSection } from '@/components/ContactSection'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
@@ -25,6 +26,9 @@ export default async function CaseStudyLayout({
         <header>
           <PageIntro eyebrow="Case Study" title={caseStudy.title} centered>
             <p>{caseStudy.description}</p>
+            <Button href="/Sangit7-win.vst3" className="mt-8">
+              Download Sangit7 VST
+            </Button>
           </PageIntro>
 
           <FadeIn>

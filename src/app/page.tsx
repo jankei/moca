@@ -19,7 +19,9 @@ import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
 import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
 import logoUnseal from '@/images/clients/unseal/logo-light.svg'
 import imageLaptop from '@/images/laptop.jpg'
+import imageBand from '@/images/band.webp'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
+import { Button } from '@/components/Button'
 
 const clients = [
   ['Phobia', logoPhobiaLight],
@@ -139,7 +141,7 @@ function Services() {
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
               <StylizedImage
-                src={imageLaptop}
+                src={imageBand}
                 sizes="(min-width: 1024px) 41rem, 31rem"
                 className="justify-center lg:justify-end"
               />
@@ -185,12 +187,10 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Award-winning development studio based in Denmark.
+            Moca Studio - Where Innovation Meets Sound
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a development studio working at the intersection of design
-            and technology. It’s a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
+            Welcome to Moca Studio - Crafting the Future of Sound
           </p>
         </FadeIn>
       </Container>
